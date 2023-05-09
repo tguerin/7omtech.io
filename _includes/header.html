@@ -13,7 +13,7 @@
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Working at <a href="https://www.arvato-systems.de">Arvato Systems</a> as developer and architect for Azure <i class="fas fa-cloud"></i>.</p>
+      <p class="panel-cover__description">Crafting top-notch mobile experiences with over 10 years in Android and now in Flutter. Quality and innovation at the heart of every app journey.</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -21,12 +21,11 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-              <!-- https://mastodon.social/@tzuehlke@mstdn.social -->
-            {% if site.author.twitter_username %}
+            {% if site.author.mastodon %}
               <!-- Mastodon -->
               <li class="navigation__item">
                 <a href="https://mastodon.social/@{{ site.author.mastodon }}" title="@{{ site.author.mastodon }} on Mastodon" target="_blank">
-                  <i class="fa-brands fa-mastodon"></i>
+                  <i class="fa-brands fa-mastodon fa-fw" style="width:48px; height:48px"></i>
                   <span class="label">Mastodon</span>
                 </a>
               </li>
@@ -37,7 +36,7 @@
               <li class="navigation__item">
                 <a href="https://twitter.com/{{ site.author.twitter_username }}" title="@{{ site.author.twitter_username }} on Twitter" target="_blank">
                   <!--<i class="icon icon-social-twitter"></i>-->
-                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-twitter fa-fw"></i>
                   <span class="label">Twitter</span>
                 </a>
               </li>
@@ -48,7 +47,7 @@
               <li class="navigation__item">
                 <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
                   <!--<i class="icon icon-social-facebook"></i>-->
-                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-facebook fa-fw"></i>
                   <span class="label">Facebook</span>
                 </a>
               </li>
@@ -59,7 +58,7 @@
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
                   <!--<i class="icon icon-social-linkedin"></i>-->
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-linkedin fa-fw"></i>
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
@@ -70,7 +69,7 @@
               <li class="navigation__item">
                 <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
                   <!--<i class="icon icon-social-github"></i>-->
-                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-brands fa-github fa-fw"></i>
                   <span class="label">GitHub</span>
                 </a>
               </li>
@@ -81,7 +80,7 @@
             <li class="navigation__item">
               <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank">
                 <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
-                <i class="fa-brands fa-meetup"></i>
+                <i class="fa-brands fa-meetup fa-fw"></i>
                 <span class="label">Meetup</span>
               </a>
             </li>
@@ -92,7 +91,7 @@
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
                   <!--<i class="icon icon-mail"></i>-->
-                  <i class="fa-solid fa-envelope"></i>
+                  <i class="fa-solid fa-envelope fa-fw"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
@@ -100,15 +99,8 @@
 
             </ul>
           </nav>
-          
+
           <!--<nav class="cover-navigation cover-navigation--primary">-->
-          <nav class="cover-navigation navigation--social">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="https://blog.zuehlke.cloud" title="link to Blog"><i class="fa-solid fa-link"></i>&nbsp;Blog</a></li>
-              <!--<li class="navigation__item"><a href="{{ site.baseurl }}/#" title="link to Tweets" class="panel-button"><i class="icon icon-social-twitter"></i>&nbsp;Tweets</a></li>-->
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="List of Projects" class="panel-button projects-button"><i class="fa-solid fa-file-code"></i>&nbsp;Projects</a></li>
-            </ul>
-          </nav>
 
         </div>
 
