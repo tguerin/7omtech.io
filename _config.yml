@@ -1,0 +1,36 @@
+# Site settings
+title: Thomas Guerin
+description: 'Business Card Page'
+url: 'https://7omtech.fr'
+baseurl: ''
+profilepic: '/images/tguerin.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: G-7JSH88SKE0
+font_awesome: 'a9777f8a42.js'
+
+author:
+  name: 'Thomas Guerin'
+  email: contact@7omtech.fr
+  twitter_username: Tom404_
+#  facebook_username: joshgerdes
+  github_username:  tguerin
+  linkedin_username:  thomas-guerin-6233a76b
+# meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
