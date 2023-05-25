@@ -1,24 +1,30 @@
 # Site settings
-title: Thomas Guerin
-description: 'Business Card Page'
+title: 7om Tech
+description: 'Crafting top-notch mobile experiences with over 10 years in Android and now in Flutter. Quality and innovation at the heart of every app journey.'
 url: 'https://7omtech.fr'
 baseurl: ''
-profilepic: '/images/tguerin.jpg'
-bkimage: '/images/background.jpg'
-google_analytics: G-7JSH88SKE0
-font_awesome: 'a9777f8a42.js'
+google_analytics: 'G-7JSH88SKE0'
+disqus_shortname: '7omtech'
 
 author:
   name: 'Thomas Guerin'
   email: contact@7omtech.fr
-  twitter_username: Tom404_
-#  facebook_username: joshgerdes
-  github_username:  tguerin
-  linkedin_username:  thomas-guerin-6233a76b
-# meetup_name: Azure-Meetup-Rostock-MV
+  twitter_username: tom404_
+  github_username: tguerin
+  linkedin_username: thomas-guerin-6233a76b
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
 destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
@@ -32,5 +38,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-#plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']

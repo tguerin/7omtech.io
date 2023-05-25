@@ -3,12 +3,12 @@
 @import "uno";
 @import "tables";
 @import "monokai";
-@import "timeline";
 
 /* Modifications */
 
 pre.highlight,
 .highlight pre {
+  background-color: #eef;
   padding: 10px;
 }
 
