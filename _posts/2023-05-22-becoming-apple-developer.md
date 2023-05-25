@@ -33,7 +33,7 @@ None of the password was working, so I was totally stuck.
 
 ![](/images/2023-05-22-becoming-apple-developer/begins.gif)
 
-I reverted my change on Apple Id back to my _hotmail_ account and everything went back to normal.
+I reverted my change on [appleid.apple.com](https://appleid.apple.com/) back to my _hotmail_ account and everything went back to normal.
 
 Ok Apple, I will use my _hotmail_ account!
 
