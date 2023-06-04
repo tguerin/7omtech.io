@@ -1,7 +1,9 @@
 ---
 title:  "Becoming Apple Developer: The Hard Way"
+subtitle: "When activating an Apple developer account is not as easy as it should be"
 date:  2023-05-22 15:04:23
 categories: [Release Process]
+image: /images/apple-logo.jpeg
 tags:  
 - Apple Development
 - App Store Process
