@@ -23,7 +23,7 @@ was not a ”Piece of Cake“.
 
 I got the first macbook during my studies thanks to the Apple student program and it was looking like this:
 
-![](/images/2023-05-22-becoming-apple-developer/mcbook.jpg)
+![](/images/2023-05-22-becoming-apple-developer/mcbook.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 At that time I used a _hotmail.com_ mail address to register. For the youngest one it was the ancestor of outlook (damn I feel old). 
 This hotmail mail address became by default my Apple Id. For my developer account, I wanted to update this Apple Id to use my _gmail_ account instead.
@@ -59,7 +59,7 @@ After having read some Apple community threads, I realized I was not the only on
 
 I ended sending an mail to Apple Support again and 2 days later I got the most epic mail:
 
-```
+```text
 Thank you for contacting Apple Developer Program Support.
 
 My name is xxxxx and I am delighted to assist you today.
@@ -75,7 +75,7 @@ This was the most polite way I had ever seen to tell me: “Your Apple Id is fuc
 
 “I WANT TO SUBMIT AN APP” I repeat “I WANT TO SUBMIT AN APP”.
 
-![](/images/2023-05-22-becoming-apple-developer/everybodystaycalm-staycalm.gif)
+![](/images/2023-05-22-becoming-apple-developer/everybodystaycalm-staycalm.gif){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## New Apple Id
 
@@ -115,7 +115,7 @@ DUNS Number, Apple provide a tool to search your company. Don't pay for your DUN
 After everything was setup by mail, I got a call to ensure that I was actually me. Once confirmed that me was me,
 the migration process started. Two days later I finally got my company developer account.
 
-![](/images/2023-05-22-becoming-apple-developer/champagne.gif)
+![](/images/2023-05-22-becoming-apple-developer/champagne.gif){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Summary
 
