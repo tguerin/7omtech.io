@@ -206,7 +206,7 @@ Hmm not working as expected. The reason behind this issue is quite simple and ca
  */
 ```
 
-This means that the app will not be drawn below the system navigation bar.
+This means that the app will not be drawn below the system navigation bar if API level < 29.
 
 ## Faking Translucence
 
