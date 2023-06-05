@@ -359,6 +359,8 @@ Widget build(BuildContext context) {
 }
 ```
 
-I hope you enjoyed this article. Don't hesitate to leave a comment or ask questions!
+I hope you enjoyed this article. Don't hesitate to leave a comment or ask questions! 
+
+If you could give your feedback about [Factify Facts](https://factify.7omtech.fr) either on [Product Hunt](https://www.producthunt.com/products/factify-facts) or by direct message it would be awesome!
 
 May Flutter be with you!
