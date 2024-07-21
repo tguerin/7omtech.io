@@ -48,7 +48,7 @@ _radial-gradient(50% 45% at 50% 50%, rgba(1, 246, 187, 0.80) 0%, rgba(1, 246, 18
 
 Breaking it down, it’s pretty straightforward:
 
-* 50% 45% defines the ellipse dimensions relative to the container’s width and height.
+* 60% 45% defines the ellipse dimensions relative to the container’s width and height.
 * 50% 50% positions the center of the ellipse in the middle of the container.
 * The color stops transition from a semi-transparent green to fully transparent.
 
