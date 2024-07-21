@@ -137,7 +137,7 @@ Matrix4? transform(Rect bounds, {TextDirection? textDirection})
 ```
 
 The initial step involves determining the correct dimensions for width and height, guided by the widthFactor and heightFactor. 
-Given that the radius is set to 1, the diameter of the radial gradient will equal the length of the shortest side of the container. Consequently, we must accurately adjust these size factors to maintain the desired proportions of the elliptical gradient:
+Given that the radius is set to 1, the radius of the radial gradient will equal the length of the shortest side of the container. Consequently, we must accurately adjust these size factors to maintain the desired proportions of the elliptical gradient:
 
 ```dart
 final double widthFactor;
