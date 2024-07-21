@@ -43,7 +43,7 @@ Given the complexities, we decided to develop an API that would allow us to easi
 To tackle this, we first dissected the CSS command:
 
 
-_radial-gradient(50% 45% at 50% 50%, rgba(1, 246, 187, 0.80) 0%, rgba(1, 246, 187, 0.00) 100%);_
+_radial-gradient(60% 45% at 50% 50%, rgba(1, 246, 187, 0.80) 0%, rgba(1, 246, 187, 0.00) 100%);_
 
 
 Breaking it down, it’s pretty straightforward:
