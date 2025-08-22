@@ -9,3 +9,4 @@ vendor/
 .DS_Store
 .ruby-version
 Gemfile.lock
+.DS_Store
