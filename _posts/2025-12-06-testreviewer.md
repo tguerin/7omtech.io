@@ -78,7 +78,7 @@ code, give it a spin.
 
 Check it out here: **[https://testreviewer.ai](https://testreviewer.ai)**
 
-If you find a bug, or if you think a feature is missing, just shoot me a mail at
+If you find a bug, or if you think a feature is missing, join our [Discord](https://discord.gg/MBEGcXXR) or shoot me a mail at
 **hi@testreviewer.ai**.
 
 **Happy reviewing,**
