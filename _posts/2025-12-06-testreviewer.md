@@ -3,6 +3,7 @@ layout: post
 title: "The hiring bottleneck: why I built TestReviewer.ai"
 date: 2025-12-06 02:00:00 +0100
 comments: true
+image: /images/logo_testreviewer.png
 categories: [Startups, Engineering]
 tags:
     - Startups
