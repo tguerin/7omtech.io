@@ -156,7 +156,7 @@ The workflow I use now looks like this. The motion designer drops a fresh
 
 And the agent:
 
-1. Runs `rive-gen -i assets/hero.riv -o lib/generated`.
+1. Runs `rive-gen -i assets/hero.riv -o lib/generated --modern --interface`.
 2. **Reads the generated Dart**, which now spells out, in types, every property
    the file exposes.
 3. Writes the binding code against those types.
