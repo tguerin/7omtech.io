@@ -207,6 +207,47 @@ optional [`rive_viewmodel`](https://pub.dev/packages/rive_viewmodel) pub package
 that provides the `RiveViewModel` interface if you want your generated classes to
 share a common type.
 
+## What about Rive's own generator?
+
+Fair question, and I want to be upfront about it. The Rive team is building their
+own [`rive-code-generator`](https://github.com/rive-app/rive-code-generator-wip),
+and if you've read my stuff you already know I'm a big fan of what they do (I said
+it in the Mowgli post and I'll happily repeat it: Rive rocks). It's honestly funny
+how much our two approaches rhyme. Both parse the `.riv`, both render the output
+through **Mustache templates**. Great minds, or at least similarly lazy ones.
+
+For the record, this wasn't me copying their homework. Rive's generator has been
+around since late 2024, but for a long time it targeted the older world of state
+machine inputs and text runs, not data binding. I started my little view model
+generator back in June 2025, and Rive only landed data binding support in their own
+generator at the end of October 2025, a few months later. We just both stared at the
+same gap and reached for the same tool (hello again, Mustache).
+
+Theirs is actually broader in scope than mine. It's built to be language-agnostic
+through those templates (Dart and JSON out of the box), and it does things mine
+doesn't: JSON representations of the file, diff files for version control, and
+asset extraction with CDN metadata. If your needs go beyond Flutter, that's the
+one to keep an eye on.
+
+Where mine differs today is Flutter ergonomics. It leans hard into how a Flutter
+dev actually wants to consume a view model: a reactive `Stream` per property, a
+`dispose()` that cleans everything up, typed `fromInstance` factories for named
+presets, the optional `RiveViewModel` interface, and output for both the legacy
+`rive_native` and the modern `package:rive` imports. Add the drag-and-drop web app
+and the `npm` CLI, and there's no native binary to build first.
+
+Now the honest part: theirs is the **official** one, and the repo name still ends
+in `-wip` for a reason. It's explicitly experimental for now. Once it ships properly
+it'll be a great option, and well worth watching, if only because a generator
+maintained by the Rive team is going to track the runtime more closely than anything
+I keep alive on the side.
+
+So I'm not going to tell you to drop one for the other. If you like how my tool
+generates your view models, the per-property streams, the `dispose()`, the typed
+factories, the Flutter-first feel, then use it. If the official one fits your
+workflow better when it lands, use that instead. Two tools solving the same problem
+is a good problem to have, and honestly it just means the itch was real.
+
 ## Try it
 
 Everything is open source under a BSD-3 license:
