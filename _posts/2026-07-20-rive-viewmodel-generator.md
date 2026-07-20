@@ -265,4 +265,4 @@ handled the way you'd expect, or you want another target language out of those
 templates, open an issue or a PR. I read all of them.
 
 **Type-safely yours,**\
-_Traversiere_
+_Thomas_
